@@ -1,4 +1,4 @@
 <%= form_with(model: @room, remote: true, class: 'd-flex') do |f| %>
-  <%= f.text_field :name, class: 'mt-1 p-1 border border-gray-200 rounded-sm focus:ring-0 focus:outline-hidden sm:text-sm', autocomplete: 'off' %>
-  <%= f.submit data: { disable_with: false }, class: "px-1 py-1 border border-gray-200 rounded-sm text-sm bg-blue-50" %>
+  <%= f.text_field :name, class: 'mt-1 p-1 border border-gray-200 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-blue-400 sm:text-sm', autocomplete: 'off' %>
+  <%= f.submit "Criar", data: { disable_with: false }, class: "px-1 py-1 border border-gray-200 rounded-sm text-sm bg-blue-50 transition-all duration-200 ease-in-out active:scale-95 hover:bg-blue-100 hover:border-blue-300 hover:shadow-md focus:outline-none" %>
 <% end %>
