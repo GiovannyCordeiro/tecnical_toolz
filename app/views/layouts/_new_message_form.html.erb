@@ -1,6 +1,14 @@
 <div class="form-group msg-form ">
-  <%= form_with(model: [@single_room, @message], remote: true, class: 'flex justify-center') do |f| %>
-    <%= f.text_field :body, id: 'chat-text', class: 'px-5 py-2 border border-gray-200 rounded-sm w-lg transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-blue-400 focus:shadow-md', autocomplete: 'off' %>
-    <%= f.submit "Enviar", data: { disable_with: false }, class: 'px-5 py-2 border border-gray-200 rounded-sm text-sm bg-blue-50 transition-all duration-200 ease-in-out active:scale-95 hover:bg-blue-100 hover:border-blue-300 hover:shadow-md' %>
-  <% end %>
-</div>
+  <%= form_with(model: [@single_room, @message], remote: true, class: 'flex justify-center gap-2', data: { controller: 'input-validation' }) do |f| %>
+  <%= f.text_field :body,
+      id: 'chat-text',
+      class: 'px-5 py-2 border border-gray-200 rounded-sm w-lg transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-blue-400 focus:shadow-md',
+      autocomplete: 'off',
+      data: { input_validation_target: 'input', action: 'input->input-validation#validate' } %>
+
+  <%= f.submit "Enviar",
+      id: 'submit-button',
+      data: { disable_with: false, action: 'input->input-validation#validate', input_validation_target: 'button' },
+      class: 'px-5 py-2 border border-gray-200 rounded-sm text-sm bg-blue-50 transition-all duration-200 ease-in-out active:scale-95 hover:bg-blue-100 hover:border-blue-300 hover:shadow-md disabled:bg-blue-50 disabled:text-gray-400 disabled:cursor-not-allowed' %>
+<% end %>
+
