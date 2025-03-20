@@ -1,6 +1,5 @@
-<div id="chatroom_container" class="w-full flex ml-12">
+<div id="chatroom_container" class="w-full flex ml-12 justify-center gap-16">
   <div id="side_panel" class="mt-8">
-    <h5><%= current_user.email %></h5>
     <h4 class="text-2xl">Users</h4>
     <%= turbo_stream_from "users" %>
     <div id="users">
@@ -13,7 +12,7 @@
       <%= render @rooms %>
     </div>
   </div>
-  <div id="room_container">
+  <div id="room_container" class="h-screen mr-0 w-2/5">
     <% if @single_room %>
       <div id="single_room">
         <h4 class="text-center"><%= @user&.email || @single_room.name %></h4>
