@@ -9,6 +9,6 @@ class RoomsController < ApplicationController
   end
 
   def create
-    @room = Room.create(name: params["room"])
+    @room = Room.create(name: params["room"]["name"])
   end
 end
