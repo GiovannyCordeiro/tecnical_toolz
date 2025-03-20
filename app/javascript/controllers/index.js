@@ -6,3 +6,6 @@ import { application } from "./application"
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+import InputValidationController from "./input_validation_controller"
+application.register("input-validation", InputValidationController)
