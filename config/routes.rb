@@ -7,7 +7,7 @@ Rails.application.routes.draw do
     resources :messages
   end
 
-  devise_for :users
+  devise_for :users, controllers: { omniauth_callbacks: "users/omniauth_callbacks" }
   devise_scope :user do
     get "users", to: "devise/sessions#new"
   end
