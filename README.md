@@ -1,14 +1,15 @@
 ![img banner](docs_assets/banner.webp)
 # Teste tecnico - Toolzz
 
-Ola, eu sou o Giovanny, agradeço desde ja o convite para participar! Confesso que esse teste tecnico foi bem desafiador
-pois nunca tinha desenvolvido um projeto parecido de chat, mas como ja era dos meus planos fazer,
-fiquei feliz e animado com a possibilidade. O prazo foi bem  curto de 2 dias, mas a cada passo que desenvolvia a
-aplicacao ficava mais feliz por entender como cada parte funcionava.
+Olá, sou o Giovanny. Agradeço desde já o convite para participar do teste tecnico!
+Confesso que este teste técnico foi bastante desafiador, pois nunca havia desenvolvido
+um projeto de chat semelhante. No entanto, como já era um dos meus planos, fiquei feliz
+e animado com a oportunidade. O prazo foi curto, apenas 2 dias, mas a cada etapa do
+desenvolvimento da aplicação, sentia-me mais satisfeito ao compreender o funcionamento de cada parte.
 
-## Preview da aplicação!
+## 👨‍💻 Preview da aplicação!
 
-## Tabela de conteudos:
+## 📋 Tabela de conteudos:
 - Funcionalidades desenvolvidas
 - Setup do projeto
 - Requisitos
@@ -16,39 +17,37 @@ aplicacao ficava mais feliz por entender como cada parte funcionava.
 - Decisoes tecnicas e aplicacoes
 - Melhorias
 
-## Funcionalidades desenvolvidas:
+## 🎯 Funcionalidades desenvolvidas:
 
-- Chat de salas para todos usuarios
-- Chat direct entre usuarios
-- Autentitacao e autorizacao
+- ✅ Chat de salas para todos usuarios
+- ✅ Chat direct entre usuarios
+- ✅ Autentitacao e autorizacao
 
 ## Requisitos
-
 - Docker
 
-## Setup do projeto:
+## 🌐 Setup do projeto:
 
+- Abra o docker ou execute o docker em sua maquina
 - Abra o projeto no vscode
-- Execute em containers de desenvolvimento por meio de uma mensagem que vai aparecer no vscode.
+- Execute em containers de desenvolvimento por meio de uma mensagem a direita que vai aparecer no proprio Vscode.
 - Espere o projeto rodar devidamente
-- rode no terminal o comando `bin/dev`
+- Rode no terminal o comando `rails s`
 
-## Decisoes tecnicas e applicacoes
+## 📝 Decisões Técnicas e Aplicações:
 
-Dado o desenvolvimento em um prazo bastante curto optei por nao desenvolver a parte do front em React,
-embora eu ja tenha desenvolvido alguns outros projetos no meu github com a ferramenta, caso eu me concentrasse-se
-em abstrair e conectar front com uma API Rails, provavelmente perderia um tempo precioso, logo, foquei na
-arquitetura monolitica com sistema Hotwire e Tailwind de forma direta, utilizando as vantagens do ecossistema rails.
+Devido ao prazo bastante curto, optei por não desenvolver a parte frontal utilizando React. Embora já tenha
+trabalhado com React em outros projetos disponíveis no meu GitHub, avaliando o tempo limitado, percebi que abstrair
+e conectar o front-end com uma API Rails poderia consumir um tempo precioso. Assim, decidi focar em uma arquitetura
+monolítica, empregando Hotwire e Tailwind CSS de forma direta, aproveitando as vantagens do ecossistema Rails.​
 
-Me senti bastante desafiado no desafio, por ser bastante complexo com os requisitos, mas desenvolver
-um projeto com Ruby e Rails é sempre muito prazeroso, justamente pelos seus padroes de convenção sobre
-configuração e principios SOLID.
+O desafio foi complexo devido aos requisitos estabelecidos, mas desenvolver um projeto com Ruby on Rails é sempre
+gratificante, especialmente pelos seus padrões de convenção sobre configuração e pelos princípios SOLID.​
 
-Utilizei commits semmaticos para deixar claro o historico de auteração, no caso de onde ocorra um bug
-fique facil definir quais versoes sao as defeituosas e quais nao sao, ganhando mais tempo no processo
-de debbuging.
+Adotei commits semânticos para documentar claramente o histórico de alterações. Essa prática facilita a identificação
+de versões com possíveis bugs, agilizando o processo de depuração.
 
-## Melhorias
+## 💡 Melhorias:
 
 - Melhor desenvolvimento de componentes utilizando Stimullus + React: Senti que aplicação não tinha um
 dos principais fatores que era uma UX interessante, mas o desenvolvimento das funcionalidades não seriam em vão
