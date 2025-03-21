@@ -64,5 +64,11 @@ o que acredito ser um infelicidade minha, por isso, com mais tempo implementaria
 seguindo abordagem modernas do desenvolvimento front-end, onde deixamos os elementos se reagirem
 as varias proporcoes de tela, como descrito [nesse artigo aqui](https://dev.to/lixeletto/acho-que-ja-podemos-deixar-o-mobile-first-em-2024-3m61)
 
+- Pipeline Stage e Deploy: Por meio do Heroku definiria uma pipeline de entrega continua de funcionalidades para QAs e devs,
+o que facilitaria ainda mais o processo de entrega continua de software, promovendo um ambiente ainda mais proximo de
+produção e desenvolvimento, isso evitaria erros de código que quebrem o sistema com novas atualizações e melhoraria
+a produtividade. Segue o exemplo de uma pipeline que já construi:
+![pipeline heroku](./docs_assets/heroku_pipeline.png)
+
 - Melhora da escalabilidade: A medida que fosse me aprofundado como se da o funcionamento do processo
 de caching e escala de aplicações
