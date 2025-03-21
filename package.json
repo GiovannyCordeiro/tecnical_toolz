@@ -3,14 +3,12 @@
   "private": true,
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets",
-    "build:css": "npx @tailwindcss/cli -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"
+    "build:css": "tailwindcss -i ./app/assets/stylesheets/application.css -o ./app/assets/builds/application.css --watch"
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo-rails": "^8.0.13",
     "@rails/actiontext": "^8.0.200",
-    "g": "^2.0.1",
-    "npx": "^3.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "stimulus": "^3.2.2"
