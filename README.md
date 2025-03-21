@@ -33,6 +33,7 @@ desenvolvimento da aplicação, sentia-me mais satisfeito ao compreender o funci
 - Abra o projeto no vscode
 - Execute em containers de desenvolvimento por meio de uma mensagem a direita que vai aparecer no proprio Vscode.
 - Espere o projeto rodar devidamente
+- Rode no terminal o comando `rails db:migrate`
 - Rode no terminal o comando `rails s`
 
 ## 📝 Decisões Técnicas e Aplicações:
