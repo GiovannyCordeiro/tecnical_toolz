@@ -23,6 +23,7 @@ desenvolvimento da aplicação, sentia-me mais satisfeito ao compreender o funci
 - ✅ Chat de salas para todos usuarios
 - ✅ Chat direct entre usuarios
 - ✅ Autentitacao e autorizacao
+- ✅ Pipeline de CI
 
 ## Requisitos
 - Docker
