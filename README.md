@@ -8,6 +8,7 @@ e animado com a oportunidade. O prazo foi curto, apenas 2 dias, mas a cada etapa
 desenvolvimento da aplicação, sentia-me mais satisfeito ao compreender o funcionamento de cada parte.
 
 ## 👨‍💻 Preview da aplicação!
+![Aplicação](docs_assets/preview.png)
 
 ## 📋 Tabela de conteudos:
 - Funcionalidades desenvolvidas
@@ -51,13 +52,14 @@ de versões com possíveis bugs, agilizando o processo de depuração.
 
 - Melhor desenvolvimento de componentes utilizando Stimullus + React: Senti que aplicação não tinha um
 dos principais fatores que era uma UX interessante, mas o desenvolvimento das funcionalidades não seriam em vão
-justamente pela integração facil entre Stimulus e componetes react, distribuiria componentes quando
-necessario de forma rapido que só o ecossistema Javascript pode trazer, com a praticidade do rails, como
+justamente pela integração facil entre Stimulus e componetes react, distribuindo componentes quando
+necessario de forma rapido, tirando vantagem do ecossistema Javascript pode trazer, com a praticidade do rails, como
 [descrito nesse artigo](https://blog.codeminer42.com/rails-stimulus-react/)
 
-- Refinamento do mobile first para desenvolvimento de forma clara e objetiva: As telas nao estao desenvolvidas
-para mobile, o que foi um grande infelicidade minha, caso tivesse mais tempo, implementaria responsividade
-seguindo as logicas mais modernas do desenvolvimento front-end atual, onde deixamos os elementos se reagirem
+- Refinamento do mobile first para desenvolvimento de forma clara e objetiva: As telas não estão desenvolvidas
+para mobile first, embora na maioria dos projetos eu desenvolva dessa forma, por conta do tempo acabei não impelmentando
+o que acredito ser um infelicidade minha, por isso, com mais tempo implementaria responsividade
+seguindo abordagem modernas do desenvolvimento front-end, onde deixamos os elementos se reagirem
 as varias proporcoes de tela, como descrito [nesse artigo aqui](https://dev.to/lixeletto/acho-que-ja-podemos-deixar-o-mobile-first-em-2024-3m61)
 
 - Melhora da escalabilidade: A medida que fosse me aprofundado como se da o funcionamento do processo
